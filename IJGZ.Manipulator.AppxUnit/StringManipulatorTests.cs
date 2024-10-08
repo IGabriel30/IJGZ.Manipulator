@@ -27,8 +27,8 @@ namespace IJGZ.Manipulator.AppxUnit
         {
             // Arrange
             StringManipulator manipularString = new StringManipulator();
-            string input = "H e l l o";
-            string expected = "Hello";
+            string input = "H 3 l l o";
+            string expected = "H3llo";
 
             // Act
             string result = manipularString.RemoveSpaces(input);
@@ -50,19 +50,6 @@ namespace IJGZ.Manipulator.AppxUnit
             // Assert
             Assert.Equal(expected, result);
         }
-        [Fact]
-        public void RemoveSpaces_WithSpaces_ReturnsStringWithoutSpaces() //verifica que los espacios se eliminan correctamente de una caden
-        {
-            // Arrange
-            StringManipulator manipularString = new StringManipulator();
-            string input = "h e l l o";
-            string expected = "hello";
-
-            // Act
-            string result = manipularString.RemoveSpaces(input);
-
-            // Assert
-            Assert.Equal(expected, result);
-        }
+       
     }
 }
