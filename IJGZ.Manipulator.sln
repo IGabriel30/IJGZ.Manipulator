@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IJGZ.Manipulator", "IJGZ.Manipulator\IJGZ.Manipulator.csproj", "{D813C77C-775A-4573-8F42-1CD42BC3419A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IJGZ.Manipulator.AppxUnit", "IJGZ.Manipulator.AppxUnit\IJGZ.Manipulator.AppxUnit.csproj", "{79757EA5-72E7-48AD-B898-2D6BFD5A45CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D813C77C-775A-4573-8F42-1CD42BC3419A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D813C77C-775A-4573-8F42-1CD42BC3419A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D813C77C-775A-4573-8F42-1CD42BC3419A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79757EA5-72E7-48AD-B898-2D6BFD5A45CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79757EA5-72E7-48AD-B898-2D6BFD5A45CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79757EA5-72E7-48AD-B898-2D6BFD5A45CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79757EA5-72E7-48AD-B898-2D6BFD5A45CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
